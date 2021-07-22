@@ -12,9 +12,19 @@
 </head>
 
 <body>
+    <style>
+        body {
+            perspective: 1000px;
+        }
+    </style>
     <nav>
-        <div class="logo">
+        <!-- <div class="logo">
             <h2>Vasav</h2>
+        </div> -->
+        <div class="hamburger">
+            <div class="line line1"></div>
+            <div class="line line2"></div>
+            <div class="line line3"></div>
         </div>
         <ul class="nav-links">
             <li>
@@ -30,57 +40,165 @@
                 <a href="contact.html">Contact</a>
             </li>
         </ul>
-        <div class="burger">
-            <div class="line1"></div>
-            <div class="line2"></div>
-            <div class="line3"></div>
-        </div>
     </nav>
+
+
     <div class="skills_bg">
-        <div>
-            <p>As of now I am trying to learn as many tools as I can</p>
-            <p>But particularly I have developed for tools which are related to coding</p>
-            <img src="images/code.png" />
-            <p>My Skills Include</p>
-            <div class="div_skills1">
-                <div clas="divskill1">
-                    <img src="images/c.png" />
-                    <p>I am familiar with <b><i>C programming language</i></b>
-                        <br> as I was part of academic Curriculum in First Year</p>
-                </div>
+        <div class="skills_top">
+            <p class="spara1">As of now I am trying to learn as many tools as I can
+                <br> But particularly I have developed interest for tools which are related<br> to coding</p>
+            <img class="simg1" src="images/code.png" />
 
-                <div clas="divskill2">
-                    <img src="images/py.jpg" />
-                    <p>I am familiar with bacis as well as some advanced features of <br>
-                        <b><i>Python programming language</i></b> </p>
-                </div>
+        </div>
 
-                <div clas="divskill3">
-                    <img src="images/html5.png" />
-                    <p><b><i>HTML5</i></b> is a language which every Web Developer<br> should be familiar with as it gives structure to the website</p>
+
+        <h2>My Skills Include</h2>
+
+
+        <!-- <div class="div_skills1">
+            <div clas="divskill1">
+                <img src="images/c.png" />
+                <p>I am familiar with <b><i>C programming language</i></b>
+                    <br> as I was part of academic Curriculum in First Year</p>
+            </div>
+
+            <div clas="divskill2">
+                <img src="images/py.jpg" />
+                <p>I am familiar with bacis as well as some advanced features of <br>
+                    <b><i>Python programming language</i></b> </p>
+            </div>
+
+            <div clas="divskill3">
+                <img src="images/html5.png" />
+                <p><b><i>HTML5</i></b> is a language which every Web Developer<br> should be familiar with as it gives structure to the website</p>
+            </div>
+        </div>
+        <div class="div_skills2">
+
+            <div clas="divskill4">
+                <img src="images/css3.png" />
+                <p><b><i>CSS3</i></b> is a the latest version of Cascasding Style Sheet(CSS), <br> it is language which beautifies the Website</p>
+            </div>
+
+            <div clas="divskill5">
+                <img src="images/js2.png" />
+                <p><b><i>JavaScript</i></b> makes possible for the user to<br> interact with the Website</p>
+            </div>
+
+            <div clas="divskill6">
+                <img src="images/ubuntu.png" />
+                <p>I work on Ubuntu 18.04 which is a Linux distribution based on Debian <br> and also I have basic knowledge of Free and Open Source Softwares</p>
+            </div>
+        </div> -->
+
+        <div class="div_skills1">
+
+            <div class="container" id="rectcorner1">
+                <div class="card">
+
+                    <div class="skills_img">
+                        <div class="circle"></div>
+                        <img class="skills_imgs" src="images/c.png" />
+                    </div>
+
+                    <div class="skills_info">
+                        <p>I am familiar with <b><i>C programming language</i></b>
+                            <br> as I was part of academic Curriculum in First Year</p>
+                    </div>
+
                 </div>
             </div>
-            <div class="div_skills2">
 
-                <div clas="divskill4">
-                    <img src="images/css3.png" />
-                    <p><b><i>CSS3</i></b> is a the latest version of Cascasding Style Sheet(CSS), <br> it is language which beautifies the Website</p>
+
+            <div class="container">
+
+                <div class="card">
+
+                    <div class="skills_img">
+                        <img class="skills_imgs" src="images/py.jpg" />
+                    </div>
+
+                    <div class="skills_info">
+                        <p>I am familiar with bacis as well as some advanced features of <br>
+                            <b><i>Python programming language</i></b> </p>
+                    </div>
+
                 </div>
+            </div>
 
-                <div clas="divskill5">
-                    <img src="images/js2.png" />
-                    <p><b><i>JavaScript</i></b> makes possible for the user to<br> interact with the Website</p>
+
+            <div class="container" id="rectcorner2">
+                <div class="card">
+
+                    <div class="skills_img">
+                        <img class="skills_imgs" src="images/html5.png" />
+                    </div>
+
+                    <div class="skills_info">
+                        <p><b><i>HTML5</i></b> is a language which every Web Developer<br> should be familiar with as it gives structure to the website</p>
+                    </div>
+
                 </div>
+            </div>
 
-                <div clas="divskill6">
-                    <img src="images/ubuntu.png" />
-                    <p>I work on Ubuntu 18.04 which is a Linux distribution based on Debian <br> and also I have basic knowledge of Free and Open Source Softwares</p>
+        </div>
+
+
+
+        <div class="div_skills2">
+
+
+
+            <div class="container" id="rectcorner3">
+                <div class="card">
+
+                    <div class="skills_img">
+                        <img class="skills_imgs" src="images/css3.png" />
+                    </div>
+
+                    <div class="skills_info">
+                        <p><b><i>CSS3</i></b> is a the latest version of Cascasding Style Sheet(CSS), <br> it is language which beautifies the Website</p>
+                    </div>
+
+                </div>
+            </div>
+
+
+
+            <div class="container">
+                <div class="card">
+
+                    <div class="skills_img">
+                        <img class="skills_imgs" src="images/js2.png" />
+                    </div>
+
+                    <div class="skills_info">
+                        <p><b><i>JavaScript</i></b> makes possible for the user to<br> interact with the Website</p>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="container" id="rectcorner4">
+                <div class="card">
+
+                    <div class="skills_img">
+                        <div class="circle"></div>
+                        <img class="skills_imgs" src="images/ubuntu.png" />
+                    </div>
+
+                    <div class="skills_info">
+                        <p>I work on Ubuntu 18.04 which is a Linux distribution based on Debian <br> and also I have basic knowledge of Free and Open Source Softwares</p>
+                    </div>
+
                 </div>
             </div>
         </div>
+
     </div>
 
     <script src="app.js"></script>
+    <script src="./app2.js"></script>
 </body>
 
 </html>
