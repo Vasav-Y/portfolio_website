@@ -17,6 +17,8 @@ white : #ffffff
         display: inline-block;
         font-size: 24px;
         font-weight: 500;
+        padding-left: 10%;
+        padding-top: 0.75%;
     }
     
     .logo :hover {
@@ -47,6 +49,15 @@ white : #ffffff
     .nav-links li a {
         color: white;
         text-decoration: none;
+        font-size: 22px;
+    }
+    
+    .nav-links a:hover {
+        color: rgb(226, 226, 226);
+        text-decoration: wavy;
+        font-style: italic;
+        letter-spacing: 3px;
+        font-weight: bolder;
         font-size: 22px;
     }
     
@@ -476,4 +487,82 @@ white : #ffffff
     
     .skills_info {
         z-index: 1;
+    }
+    /* .card {
+        min-height: 34vh;
+        width: 15rem;
+        margin-left: 4rem;
+        box-shadow: 0 20px 20px rgba(0, 0, 0, 0.2), 0px 0px 50px rgba(0, 0, 0, 0.2);
+    } */
+    
+    .workheader {
+        padding-top: 2%;
+        padding-bottom: 3%;
+        margin-left: 50%;
+        transform: translateX(-50%);
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+    
+    .work_main {
+        display: flex;
+        flex-wrap: wrap;
+        padding-bottom: 5%;
+    }
+    
+    .workCont1,
+    .workCont2 {
+        width: 50%;
+    }
+    
+    .workimg1 {
+        width: 60%;
+    }
+    
+    .workcard1,
+    .workcard2 {
+        width: 90%;
+        margin-left: 5%;
+        box-shadow: 0 20px 20px rgba(0, 0, 0, 0.2), 0px 0px 50px rgba(0, 0, 0, 0.2);
+        z-index: 1;
+    }
+    
+    .cq,
+    .krssg {
+        display: flex;
+    }
+    
+    .cq h4 {
+        padding-top: 20%;
+        padding-left: 4%;
+    }
+    
+    .krssg h4 {
+        padding-top: 16%;
+    }
+    
+    .whr {
+        padding-left: 35%;
+    }
+    
+    .whl {
+        padding-left: 37%;
+    }
+    
+    .ssl {
+        display: flex;
+    }
+    
+    .ssl p {
+        padding-left: 2%;
+        padding-top: 12%;
+    }
+    
+    .webd {
+        display: flex;
+        padding-top: 4%;
+    }
+    
+    .webd p {
+        /* font-size: 18px; */
+        padding-top: 10%;
     }
