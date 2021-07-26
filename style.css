@@ -113,7 +113,7 @@ white : #ffffff
     
     .main_img {
         /* border: solid;
-        border-radius: 20%; */
+    border-radius: 20%; */
         width: 60%;
         margin-left: 10%;
     }
@@ -299,24 +299,24 @@ white : #ffffff
         border-color: hsla(188, 100%, 50%, 0);
     }
     /* .div_skills1 {
-        margin-top: 2%;
-        margin-bottom: 2%;
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-evenly;
-    }
+    margin-top: 2%;
+    margin-bottom: 2%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.div_skills2 {
+    margin-bottom: 2%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.container {
+    flex: 30%;
     
-    .div_skills2 {
-        margin-bottom: 2%;
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-evenly;
-    }
-    
-    .container {
-        flex: 30%;
-        
-    } */
+} */
     
     .skills_main {
         display: flex;
@@ -379,7 +379,6 @@ white : #ffffff
     
     .workCont1,
     .workCont2 {
-        /* width: 50%; */
         flex: 50%;
     }
     
@@ -432,7 +431,6 @@ white : #ffffff
     }
     
     .webd p {
-        /* font-size: 18px; */
         padding-top: 10%;
     }
     /* *animations */
@@ -515,7 +513,6 @@ white : #ffffff
         }
         .nav-links {
             position: fixed;
-            /* background: #5b78c7; */
             background-image: linear-gradient(to bottom, #0dc4e0, #21a3df);
             z-index: 2;
             height: 100vh;
@@ -554,7 +551,7 @@ white : #ffffff
         }
         /* *index page */
         .div-qoute {
-            margin-top: 92%;
+            margin-top: 72%;
             margin-left: 22%;
         }
         .qoute-by {
@@ -597,6 +594,7 @@ white : #ffffff
         }
         .skills_heading {
             padding-top: 44%;
+            padding-bottom: 4%;
         }
         .container {
             padding-left: 2.5%;
@@ -736,7 +734,7 @@ white : #ffffff
             padding-top: 4%;
         }
         .skills_heading {
-            padding-top: 34%;
+            padding-top: 44%;
             padding-bottom: 4%;
         }
         .container {
