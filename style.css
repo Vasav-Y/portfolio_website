@@ -655,7 +655,6 @@ white : #ffffff
         }
         .nav-links {
             position: fixed;
-            /* background: #5b78c7; */
             background-image: linear-gradient(to bottom, #0dc4e0, #21a3df);
             z-index: 2;
             height: 100vh;
@@ -702,7 +701,7 @@ white : #ffffff
         /* *index page */
         .div-qoute {
             margin-left: 22%;
-            margin-top: 72%;
+            margin-top: 92%;
         }
         .qoute-by {
             margin-left: 28%;
@@ -737,7 +736,7 @@ white : #ffffff
             padding-top: 4%;
         }
         .skills_heading {
-            padding-top: 24%;
+            padding-top: 34%;
             padding-bottom: 4%;
         }
         .container {
@@ -747,7 +746,7 @@ white : #ffffff
             padding-bottom: 6%;
         }
         .logo {
-            padding-top: 4%;
+            padding-top: 5%;
         }
         .workheader {
             padding-top: 5%;
