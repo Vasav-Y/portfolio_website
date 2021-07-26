@@ -611,6 +611,9 @@ white : #ffffff
             margin-top: 2%;
             margin-bottom: 4%;
         }
+        .whr {
+            padding-left: 22%;
+        }
         .contacts ul li {
             padding-bottom: 6%;
         }
@@ -740,6 +743,102 @@ white : #ffffff
         }
     }
     
+    @media only screen and (min-width: 600px) {
+        /* *index page */
+        .div-qoute {
+            margin-left: 22%;
+            margin-top: 62%;
+        }
+        .logo {
+            padding-top: 3.5%;
+        }
+        /* *skills page */
+        .skills_heading {
+            padding-top: 4%;
+            padding-bottom: 4%;
+        }
+        .container {
+            padding-left: 1.75%;
+        }
+        .ssl_text {
+            margin-left: 18%;
+            margin-top: 4%;
+        }
+        .cq h4 {
+            padding-top: 12%;
+        }
+        .krssg h4 {
+            padding-top: 11%;
+            padding-left: 14%;
+        }
+    }
+    
+    @media only screen and (min-width: 768px) {
+        /* *index page */
+        .div-qoute {
+            margin-left: 22%;
+            margin-top: 62%;
+        }
+        .logo {
+            padding-top: 3.5%;
+        }
+        /* *skills page */
+        .skills_heading {
+            padding-top: 3%;
+            padding-bottom: 3%;
+        }
+        .container {
+            padding-left: 1.5%;
+        }
+        .ssl_text {
+            margin-left: 18%;
+            margin-top: 4%;
+        }
+        .cq h4 {
+            padding-top: 12%;
+        }
+        .krssg h4 {
+            padding-top: 11%;
+            padding-left: 14%;
+        }
+    }
+    
+    @media only screen and (min-width: 992px) {
+        /* *index page */
+        .div-qoute {
+            margin-left: 25%;
+            margin-top: 42%;
+        }
+        .logo {
+            padding-top: 2%;
+        }
+        /* *skills page */
+        .skills_heading {
+            padding-top: 4%;
+            padding-bottom: 4%;
+        }
+        .container {
+            padding-left: 0%;
+            margin-left: 0;
+            margin-right: 2%;
+        }
+        .ssl_text {
+            margin-left: 18%;
+            margin-top: 4%;
+        }
+        .cq h4 {
+            padding-top: 12%;
+        }
+        .krssg h4 {
+            padding-top: 11%;
+            padding-left: 14%;
+            font-size: 24px;
+        }
+        .whl {
+            padding-left: 42%;
+        }
+    }
+    
     @media only screen and (min-width: 1200px) {
         .hamburger {
             display: none;
@@ -796,6 +895,7 @@ white : #ffffff
         /* *index page */
         .logo {
             padding-top: 0.75%;
+            z-index: 4;
         }
         .div-qoute {
             margin-left: 37%;
