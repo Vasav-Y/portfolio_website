@@ -102,8 +102,8 @@ white : #ffffff
     }
     
     .main {
-        width: 80%;
-        margin-left: 10%;
+        width: 90%;
+        margin-left: 5%;
         margin-top: 2%;
         background: url('images/main_bg4.jpg');
         background-size: 100% 100%;
@@ -633,6 +633,9 @@ white : #ffffff
         .contacts ul li {
             padding-bottom: 6%;
         }
+        .fa {
+            margin: 15px 2px;
+        }
     }
     
     @media only screen and (min-width: 400px) {
@@ -757,6 +760,9 @@ white : #ffffff
             width: 100%;
             padding-left: 2%;
         }
+        .fa {
+            margin: 15px 2px;
+        }
     }
     
     @media only screen and (min-width: 600px) {
@@ -786,6 +792,9 @@ white : #ffffff
         .krssg h4 {
             padding-top: 11%;
             padding-left: 14%;
+        }
+        .fa {
+            margin: 16px 2px;
         }
     }
     
