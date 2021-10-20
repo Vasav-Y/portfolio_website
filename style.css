@@ -1007,4 +1007,7 @@ white : #ffffff
         .contacts ul li {
             padding-bottom: 2%;
         }
+        .fa {
+            margin: 5px 2px;
+        }
     }
