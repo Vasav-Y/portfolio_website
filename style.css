@@ -265,6 +265,9 @@ white : #ffffff
         background: #125688;
         color: white;
     }
+    /* .fa-github {
+        font-size: 36px;
+    } */
     
     .contacts {
         align-items: center;
