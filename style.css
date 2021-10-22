@@ -234,7 +234,7 @@ white : #ffffff
     
     .fa {
         padding: 20px;
-        font-size: 30px;
+        font-size: 36px;
         width: 50px;
         text-align: center;
         text-decoration: none;
@@ -267,7 +267,6 @@ white : #ffffff
     }
     /* .fa-github {
         font-size: 36px;
-        background: white;
     } */
     
     .contacts {
@@ -640,6 +639,9 @@ white : #ffffff
         .fa {
             margin: 15px 2px;
         }
+        #mail {
+            display: none;
+        }
     }
     
     @media only screen and (min-width: 400px) {
@@ -767,6 +769,9 @@ white : #ffffff
         .fa {
             margin: 15px 2px;
         }
+        #mail {
+            display: none;
+        }
     }
     
     @media only screen and (min-width: 600px) {
@@ -830,6 +835,9 @@ white : #ffffff
             padding-top: 11%;
             padding-left: 14%;
         }
+        #mail {
+            display: none;
+        }
     }
     
     @media only screen and (min-width: 992px) {
@@ -865,6 +873,9 @@ white : #ffffff
         }
         .whl {
             padding-left: 42%;
+        }
+        #mail {
+            display: block;
         }
     }
     
